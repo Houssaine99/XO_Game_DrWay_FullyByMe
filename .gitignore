@@ -1,0 +1,88 @@
+# ===== Build results =====
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# ===== Visual Studio files =====
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# ===== Build cache / MSBuild =====
+*.cache
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# ===== NuGet =====
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# ===== ReSharper / Rider =====
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.idea/
+
+# ===== Test results =====
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== Publish / ClickOnce =====
+publish/
+*.publishsettings
+PublishScripts/
+*.pubxml
+*.pubxml.user
+*.[Pp]ublish.xml
+*.azurePubxml
+
+# ===== Backup files =====
+*.bak
+*.orig
+*~
+
+# ===== Environment / secrets =====
+*.env
+appsettings.*.json
+!appsettings.json
