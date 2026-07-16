@@ -11,7 +11,8 @@ A classic Tic-Tac-Toe game built from scratch in **C# / Windows Forms**, created
 <!-- Replace these placeholders with real screenshots of your game -->
 | Game Board | Win State |
 |---|---|
-| ![Game board placeholder]() | ![Win state placeholder](<img width="1296" height="760" alt="Screenshot 2026-07-16 171111" src="https://github.com/user-attachments/assets/b5f9ac0d-f011-4c0d-8ec1-c32f58221a8b" />
+| ![Game board placeholder](<img width="1295" height="758" alt="Screenshot 2026-07-16 171045" src="https://github.com/user-attachments/assets/9629c08c-4415-4367-bdf5-8c0e886d2693" />
+) | ![Win state placeholder](<img width="1296" height="760" alt="Screenshot 2026-07-16 171111" src="https://github.com/user-attachments/assets/b5f9ac0d-f011-4c0d-8ec1-c32f58221a8b" />
 ) |
 
 ---
