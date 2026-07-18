@@ -172,7 +172,7 @@ namespace XO_Game
                     MessageBoxIcon.Warning);
             }
 
-            if(GameState.PlayCount == 9)
+            if(!GameState.GameOver && GameState.PlayCount == 9)
             {
                 GameState.GameOver = false;
                 GameState.Winner = enWinner.Draw;
@@ -184,7 +184,6 @@ namespace XO_Game
             Button Btn = (Button)sender;
             PlayTurn(Btn);
         }
-
 
         void ResetButton(Button btn)
         {
@@ -216,7 +215,6 @@ namespace XO_Game
             RestartGame();
         }
 
-
         private void GameBoard_Paint(object sender, PaintEventArgs e)
         {
             Color Blue = Color.FromArgb(255, 0, 0, 82);
@@ -232,7 +230,5 @@ namespace XO_Game
             e.Graphics.DrawLine(Pen, 808, 174, 808, 670);
             e.Graphics.DrawLine(Pen, 1033, 174, 1033, 670);
         }
-
-        
     }
 }

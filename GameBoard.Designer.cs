@@ -57,7 +57,7 @@
             this.lblGameName.Name = "lblGameName";
             this.lblGameName.Size = new System.Drawing.Size(606, 79);
             this.lblGameName.TabIndex = 9;
-            this.lblGameName.Text = "Tic-Tac-Toe Game";
+            this.lblGameName.Text = "Tic_Tac_Toe Game";
             this.lblGameName.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // pbP
